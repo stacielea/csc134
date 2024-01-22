@@ -13,9 +13,10 @@ int main() {
     string food = "Mac & Cheese";
     cout << "My name is Stacie and my favorite food is " << food << endl;
     cout << "\n" << endl; // same thing (new line)
+    // ask user a question
     cout << "What's yours? ";
     string answer;
-    cin >> answer;
+    cin >> answer; // user answer
     cout << "You said " << answer << endl;
     cout << endl << endl;
     return 0;
