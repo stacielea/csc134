@@ -23,7 +23,8 @@ int main() {
     cout << "It stars Slyvester Stallone as Rocky, Dough Lundgren as Drago, Carl Weathers as Apollo, and Talia Shire as Adrian." << endl;
     cout << "————————————————————–—————————————————————————————————————————————————————————————————————————————————————————–———————————";
     // display quotes from the movie
-    cout << "Rocky IV is hands down my favorite movie. Some memorable quotes from the movie include: " << endl << endl;
+    cout << "Rocky IV is hands down my favorite movie. Some memorable quotes from the movie include: " << endl;
+    cout << "________________________________________________________________________________________" << endl << endl;
     cout << "\"Going in one more round when you don't think you can - that's what makes all the difference in your life.\" - Rocky" << endl << endl;
     cout << "\"You always did everything the way you wanted it. And I didn't understand that, but now I understand. I'll never forget you, Apollo.\" - Rocky" << endl << endl;
     cout << "\"Cause I'm a fighter! That's how I'm made, Adrian. That's what you married. We can't change what we are.\" - Rocky" << endl << endl;
