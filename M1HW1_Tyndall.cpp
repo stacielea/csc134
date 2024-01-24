@@ -1,8 +1,8 @@
 /*
 CSC 134
-M1LAB - Apple Sales
+M1HW1 - Movie Talk
 S Tyndall
-1/22/24
+1/24/24
 */
 #include <iostream>
 using namespace std;
@@ -21,7 +21,7 @@ int main() {
     // display information
     cout << movie_name << " was released in " << movie_year << " and it's box office gross was $" << box_office_gross << " million. ";
     cout << "It stars Slyvester Stallone as Rocky, Dough Lundgren as Drago, Carl Weathers as Apollo, and Talia Shire as Adrian." << endl;
-    cout << "";
+    cout << "————————————————————–—————————————————————————————————————————————————————————————————————————————————————————–———————————";
     // display quotes from the movie
     cout << "Rocky IV is hands down my favorite movie. Some memorable quotes from the movie include: " << endl << endl;
     cout << "\"Going in one more round when you don't think you can - that's what makes all the difference in your life.\" - Rocky" << endl << endl;
