@@ -20,8 +20,7 @@ int main() {
 
     // display information
     cout << movie_name << " was released in " << movie_year << " and it's box office gross was $" << box_office_gross << " million. ";
-    cout << "It stars Slyvester Stallone as Rocky, Dough Lundgren as Drago, Carl Weathers as Apollo, and Talia Shire as Adrian." << endl;
-    cout << "————————————————————–—————————————————————————————————————————————————————————————————————————————————————————–———————————";
+    cout << "It stars Slyvester Stallone as Rocky, Dough Lundgren as Drago, Carl Weathers as Apollo, and Talia Shire as Adrian." << endl << endl;
     // display quotes from the movie
     cout << "Rocky IV is hands down my favorite movie. Some memorable quotes from the movie include: " << endl;
     cout << "________________________________________________________________________________________" << endl << endl;
