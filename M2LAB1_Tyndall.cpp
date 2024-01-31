@@ -1,6 +1,6 @@
 /*
 CSC 134
-M2T2 - Apple Sales With User Input
+M2LAB1 - Rectangles
 S Tyndall
 1/31/24
 */
