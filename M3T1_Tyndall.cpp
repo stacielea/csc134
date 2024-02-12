@@ -34,6 +34,10 @@ int main() {
     if (area1 < area2)
     
         cout << "The second rectangle has a larger area.\n\n";
+    else if (area1 == area2) // what if they are the same?
+    {
+        cout << "The areas for both rectangles are equal.\n\n";
+    }
     else
         cout << "The first rectangle has a larger area.\n\n";
 
