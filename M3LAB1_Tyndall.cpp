@@ -57,18 +57,14 @@ void option1() {
 }
 
 void option2() {
-    int choice;
-    cout << "You chose Option 2" << endl;
-        cout << "Would you like to go to Myrtle beach (Option 1) or Miami beach (Option 2)" << endl;
-        cout << "Type 1 or 2: "; 
-        cin >> choice;
-        if (1 == choice) {
-  	        cout << "You chose Myrtle beach! Enjoy you day!" << endl;
-        }
-        else if (2 == choice) {
-            cout << "You chose Miami beach! Enjoy you day!" << endl;
-        }
-        else {
-  	    cout << "I'm sorry, that is not a valid choice." << endl;
-        }
+    string school, team, lets_go,cheer_one, cheer_two;
+    lets_go = "Let's go";
+    school = "FTCC";
+    team = "Trojans";
+    cheer_one = lets_go + " " + school + "!";
+    cheer_two = lets_go + " " + team + "!";
+    cout << cheer_one << endl;
+    cout << cheer_one << endl;
+    cout << cheer_one << endl;
+    cout << cheer_two << endl;
 }
