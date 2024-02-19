@@ -13,26 +13,59 @@ using namespace std;
 */
 
 int main() {
-    Question_four();
-    
-  return 0; 
+  
+  // this program will ask a question and respond to it.
+  // You should run it, and test it by typing in different values.
+  // Example test values: 1, 2, 3, banana (try all of them)
 
-} 
-
-// Question one
-void Question_one(){
+  // declare the variable we need
+  int choice; 
 
 
+    // ask the question
+    cout << "Do you choose to go to the park (Option 1) or go to the beach (Option 2)?" << endl;
+    cout << "Type 1 or 2: "; 
+    cin >> choice;
+
+    // using if, make a decision based on the user's choice
+
+    if (1 == choice) {
+  	    Question_one();
+    }
+    else if (2 == choice) {
+  	    Question_two();
+    }
+    else if (4 == choice) {
+        Question_four();
+    }
+    else {
+  	    cout << "I'm sorry, that is not a valid choice." << endl;
+    }
+
+    // finish up
+    cout << "Thanks for playing!" << endl << endl; // this runs no matter what they choose
+    return 0; 
+
+} // end of the main() method
+
+////
+// After main(), we define all our other functions.
+// (Declaring means "This function exists", we did that above.)
+// (Defining means "This is what the function does".)
+////
+
+void Question_one() {
+    cout << "";
 }
 
+
 // Question two
-void Question_two(){
-
-
+void Question_two() {
+  cout << "";
 }
 
 // Question four
-void Question_four(){
+void Question_four() {
     string school, team, lets_go,cheer_one, cheer_two;
     lets_go = "Let's go";
     school = "FTCC";

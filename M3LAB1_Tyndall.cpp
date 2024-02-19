@@ -1,11 +1,17 @@
 /*
 CSC 134
-M3LAB1 - 
+M2HW - Silver
 S Tyndall
-2/14/24
+2/15/24
 */
 #include <iostream>
 using namespace std;
+/*
+ Question one
+ Question two
+ Question four
+*/
+
 
 int main() {
   
@@ -47,20 +53,7 @@ int main() {
 
 void option1() {
     // this is a function
-    int choice;
-    cout << "You chose Option 1" << endl;
-        cout << "Would you like to go to Central park (Option 1) or Yellowstone park (Option 2)" << endl;
-        cout << "Type 1 or 2: "; 
-        cin >> choice;
-        if (1 == choice) {
-  	        cout << "You chose Central park! Enjoy you day!" << endl;
-        }
-        else if (2 == choice) {
-            cout << "You chose Yellowstone park! Enjoy you day!" << endl;
-        }
-        else {
-  	    cout << "I'm sorry, that is not a valid choice." << endl;
-        }
+    cout<< " ";
 }
 
 void option2() {
