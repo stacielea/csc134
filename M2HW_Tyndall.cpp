@@ -12,6 +12,7 @@ using namespace std;
  Question four
 */
 
+
 int main() {
   
   // this program will ask a question and respond to it.
@@ -21,7 +22,6 @@ int main() {
   // declare the variable we need
   int choice; 
 
-
     // ask the question
     cout << "Do you choose to go to the park (Option 1) or go to the beach (Option 2)?" << endl;
     cout << "Type 1 or 2: "; 
@@ -30,13 +30,10 @@ int main() {
     // using if, make a decision based on the user's choice
 
     if (1 == choice) {
-  	    Question_one();
+  	    option1();
     }
     else if (2 == choice) {
-  	    Question_two();
-    }
-    else if (4 == choice) {
-        Question_four();
+  	    option2();
     }
     else {
   	    cout << "I'm sorry, that is not a valid choice." << endl;
@@ -54,18 +51,12 @@ int main() {
 // (Defining means "This is what the function does".)
 ////
 
-void Question_one() {
-    cout << "";
+void option1() {
+    // this is a function
+    cout<< " ";
 }
 
-
-// Question two
-void Question_two() {
-  cout << "";
-}
-
-// Question four
-void Question_four() {
+void option2() {
     string school, team, lets_go,cheer_one, cheer_two;
     lets_go = "Let's go";
     school = "FTCC";
@@ -76,5 +67,4 @@ void Question_four() {
     cout << cheer_one << endl;
     cout << cheer_one << endl;
     cout << cheer_two << endl;
-
 }
