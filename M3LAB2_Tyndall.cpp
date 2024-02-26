@@ -18,7 +18,7 @@ int main() {
         D: 60 - 69
         F: 0 - 59
     */
-   
+
    double grade;
    string letter_grade;
    cout << "Please enter you numerical grade: ";
@@ -29,7 +29,7 @@ int main() {
    if (cin.fail()){
     // cin.fail() with return 1 accounts for anything that is not a number such as letters or symbols (3.15 Application)
     // will not display anything further
-    cout << "Your input is not a numerical grade." << endl << endl;
+    cout << "Your input is not valid. Input must be a numerical grade." << endl << endl;
     return 1;
    }
    
