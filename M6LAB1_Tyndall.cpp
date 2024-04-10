@@ -9,17 +9,13 @@ Max is 6 shells, they are live, blanks, or empty.
 */
 #include <iostream>
 using namespace std;
+#include "M6LAB1_utils.h"
 
-const int MAX_SHELLS = 6;
-const int  EMPTY = 0;
-const int  BLANK = 1;
-const int  LIVE = 2;
+
 // array is a global variable
 int magazine[MAX_SHELLS] = { LIVE,BLANK, LIVE, EMPTY, BLANK, EMPTY};
 
-// funtion prototypes
-// get the name of shell
-string shell_name(int shell);
+
 
 int main() {
     
@@ -44,20 +40,3 @@ int main() {
     return 0; 
 
 } // end of the main() method
-
-// declare functions
-string shell_name(int shell){
-    // input # of shell: (0, 1, 2)
-    // output: name (empty, blank, live)
-    string name;
-    if (shell == EMPTY) {
-        name = "Empty";
-    }
-    if (shell == BLANK){
-        name = "Blank";
-    }
-    if (shell == LIVE){
-        name = "Live";
-    }
-    return name;
-}
